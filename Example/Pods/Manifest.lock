@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AppStoreKit (0.0.1):
+    - CommonKit
+    - CTMediatoKit
+    - SLCategory
+    - SLWebEngine
+  - CommonKit (0.0.1)
+  - CTMediatoKit (0.0.4):
+    - CTMediator
+  - CTMediator (25)
+  - SLCategory (0.0.1)
+  - SLWebEngine (0.0.6):
+    - AFNetworking
+    - CTMediatoKit (~> 0.0.4)
+
+DEPENDENCIES:
+  - AppStoreKit (from `../`)
+  - CommonKit (~> 0.0.1)
+  - CTMediatoKit (~> 0.0.4)
+  - SLCategory (~> 0.0.1)
+  - SLWebEngine (~> 0.0.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+  https://github.com/forestfsl/SegmentSpecs.git:
+    - CommonKit
+    - CTMediatoKit
+    - SLCategory
+    - SLWebEngine
+
+EXTERNAL SOURCES:
+  AppStoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AppStoreKit: ad2264c8be71668300c223ee8beff227bc0f5320
+  CommonKit: 7feb1cb8cf378c8a16ac4c08a208edbe8dd2a371
+  CTMediatoKit: 17040c73a3547835990c5cbdec7e2ee20f5ac3e6
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  SLCategory: 54ff167d589de5a7c89dcf74225511c06b94d370
+  SLWebEngine: a3b6e24a5b0d63775fd9ef6ef9a1024ea321c97f
+
+PODFILE CHECKSUM: 24f6ff54820a86cb36e3077a3f68a4e17884359c
+
+COCOAPODS: 1.7.5
